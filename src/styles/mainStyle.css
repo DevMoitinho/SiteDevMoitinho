@@ -1,0 +1,27 @@
+@import url('pallete.css');
+
+body{
+    background-color: var(--base);
+    color: var(--text); 
+    margin:0px;
+    padding:0px;
+}
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--surface0);
+    
+    margin:0px;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+
+    text-align:center;
+    align-items:center;
+    font-size: 18px;
+    padding:5px;
+}
+
+

@@ -1,10 +1,16 @@
 @import url('pallete.css');
 
+*{
+    color: var(--text); 
+}
+
 body{
     background-color: var(--base);
-    color: var(--text); 
     margin:0px;
     padding:0px;
+
+    display:grid;
+    justify-items:center;
 }
 
 
@@ -24,4 +30,32 @@ body{
     padding:5px;
 }
 
+.content{
+    width: 70%;
+    margin-top:90px;
 
+    display:grid;
+    place-items: center; 
+    text-align:center;
+
+}
+
+.photo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:200px;
+    height:200px;
+    margin-bottom:30px;
+    border-radius:100%;
+    background-color: var(--mantle);
+    
+}
+
+.foto{
+    width:90%;
+    height:90%;
+    border-radius: 100%;
+
+}

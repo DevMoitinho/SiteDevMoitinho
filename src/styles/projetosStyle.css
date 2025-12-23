@@ -1,0 +1,33 @@
+@import url('pallete.css');
+
+.content{
+    width: 70%;
+    margin-top:90px;
+
+    display:grid;
+    gap:2em;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.prj{
+    border:2px solid var(--maroon);
+    border-radius:30px;
+    
+    height:300px;
+    padding: 0px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:0px;
+
+}
+
+.imgProjeto{
+    height:70%;
+    width:80%;
+    
+    border: 2px solid var(--surface0);
+    border-radius:30px;
+}

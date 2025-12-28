@@ -1,34 +1,21 @@
 @import url('pallete.css');
 
+h1{
+    margin-left:40px
+}
+
 .content{
-    width: 70%;
-    margin-top:90px;
-
-    display:flex;
-    gap: 5em;
-    place-items: center; 
-    text-align:justify;
+    width:60%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left:40px;
+    gap:10px;
 
 }
 
-.photo{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    width:200px;
-    height:200px;
-    margin-bottom:30px;
-    border-radius:100%;
-    background-color: var(--overlay0);
-    
-}
-
-.foto{
-    width:95%;
-    height:95%;
-    border-radius: 100%;
-
+.contact-card{
+    display:grid;   
+    justify-content:left;
 }
 
 .linkImg{

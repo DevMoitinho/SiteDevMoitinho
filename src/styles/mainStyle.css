@@ -7,9 +7,14 @@
     text-decoration:none;
 }
 
+.page{
+    width:100%;
+    display:grid;
+    justify-items:center;
+}
 p{
     margin:2px;
-    text-indent:40px;
+    
 }
 
 body{
@@ -17,8 +22,6 @@ body{
     margin:0px;
     padding:0px;
 
-    display:grid;
-    justify-items:center;
 }
 
 nav{
@@ -38,7 +41,7 @@ nav{
     
     background-color: var(--surface0);
     
-    margin:0px;
+    margin-bottom:10px;
     text-align:center;
     align-items:center;
     justify-content: center;

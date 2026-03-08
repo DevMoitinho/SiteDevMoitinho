@@ -16,6 +16,10 @@ p{
     margin:2px;
     
 }
+footer{
+    height:100%;    
+    background-color:var(--mantle);
+}
 
 body{
     background-color: var(--base);
